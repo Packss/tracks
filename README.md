@@ -2,10 +2,6 @@
 
 * GNOME: `gnome`
 * Plasma: `plasma`
-* Cinnamon: `cinnamon`
-* LXQT: `lxqt`
-* MATE: `mate`
-* XFCE: `xfce`
 
 ## Example GNOME `/system.yaml` (vanilla)
 
