@@ -1,0 +1,14 @@
+impl: 'https://github.com/Packss/tracks/raw/main'
+
+track: 'blendos-base'
+
+packages:
+  - 'hyprland'
+  - 'hyprlock'
+  - 'hypridle'
+  - 'sddm'
+
+services:
+  - 'sddm'
+
+#commands:
