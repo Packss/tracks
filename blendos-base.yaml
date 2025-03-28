@@ -63,12 +63,21 @@ packages:
   - 'zsh'
   - 'zsh-completions'
   - 'fzf'
-
+  # Nvidia drivers
+  - 'nvidia-dkms'
+  - 'nvidia-utils'
+  - 'lib32-nvidia-utils'
+  - 'nvidia-settings'
+  - 'nvidia-prime'
 
 services:
   - 'cups'
   - 'bluetooth'
   - 'NetworkManager'
+  - 'nvidia-powerd'
+  - 'nvidia-persistenced'
+  - 'nvidia-resume'
+  - 'nvidia-suspend'
 
 user-services:
   - 'blend-files'
