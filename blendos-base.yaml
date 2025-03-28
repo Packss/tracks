@@ -55,9 +55,14 @@ packages:
   - 'wireless_tools'
   - 'wpa_supplicant'
   - 'bluez'
+  - 'bluez-utils'
+  - 'blueman'
   - 'networkmanager'
   - 'cups'
   - 'ttf-jetbrains-mono'
+  - 'zsh'
+  - 'zsh-completions'
+  - 'fzf'
 
 
 services:
