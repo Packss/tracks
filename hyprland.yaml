@@ -4,7 +4,7 @@ track: 'blendos-base'
 
 packages:
   # Packages for my dotfiles
-  - 'brightnessctl '
+  - 'brightnessctl'
   - 'btop'
   - 'cava'
   - 'fastfetch'
@@ -23,9 +23,9 @@ packages:
   - 'kvantum'
   - 'libspng'
   - 'loupe'
-  - 'mousepad '
+  - 'mousepad'
   - 'mpv'
-  - 'mpv-mpris '
+  - 'mpv-mpris'
   - 'network-manager-applet'
   - 'nvtop'
   - 'nwg-displays'
