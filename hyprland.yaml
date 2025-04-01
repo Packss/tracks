@@ -39,6 +39,8 @@ packages:
   - 'python-requests'
   - 'qalculate-gtk'
   - 'qt5ct'
+  - 'qt6-5compat'
+  - 'qt6-declarative'
   - 'qt6-svg'
   - 'qt6ct'
   - 'rofi-wayland'
@@ -81,3 +83,8 @@ package-repos:
 
 services:
   - 'sddm'
+
+commands:
+  - 'mkdir -p /usr/share/sddm/themes/'
+  - 'git clone https://codeberg.org/minMelody/sddm-sequoia.git ~/sequoia && rm -rf ~/sequoia/.git && mv ~/sequoia /usr/share/sddm/themes/'
+  - 'echo "[Theme]\nCurrent=sequoia_2" > /etc/sddm.conf.d/theme.conf.user'
