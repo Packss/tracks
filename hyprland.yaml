@@ -75,7 +75,7 @@ packages:
   - 'ttf-fira-code'
   - 'ttf-jetbrains-mono'
   - 'ttf-jetbrains-mono-nerd'
-  - 'ttf-victor-mono'
+  - 'ttf-victor-mono-nerd'
 
 package-repos:
   - name: 'chaotic-aur'
